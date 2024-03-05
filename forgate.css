@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(clg2.avif);
+    background-size:cover;
+}
+
+.forgate{
+   
+    height: 740px;
+    width: 355px;
+}
+.forgate form{
+   border: 2px solid black;
+   margin: 190px 48px;
+   height: 346px;
+   width: 264px;
+   background-color: rgba(0, 0, 0, 0.559);
+   border-radius: 10px;
+   box-shadow:  5px 5px 28px  #a9d6e5;
+
+}
+input{
+    display: block;
+}
+h2{
+    color: #f0f3bd;
+    font-family: "Dancing Script", "Anta"sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+input[type="number"]{
+    width: 200px;
+    margin: 31px 10px 9px 20px;
+    height: 29px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.256);
+    color: white;
+    border-radius: 2px solid black;
+}
+#forgateotp{
+    position: relative;
+    right: -91px;
+    height: 40px;
+    width: 68px;
+    bottom: -8px;
+    background-color: rgba(15, 238, 15, 0.918);
+}
+input[type="text"]{
+    
+
+    height: 29px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 22px 10px 9px 20px;
+}
+#forgatelogin{
+    position: relative;
+    top: 76px;
+    left: 22px;
+}
+button[type="submit"]{
+    height: 30px;
+    width: 156px;
+    border-radius: 5px;
+    margin: 25px 13px 3px 48px;
+    background-color: #1a73e8;
+}
+#forgatelogin #anker{
+    position: relative;
+    bottom: 2rem;
+    color: chartreuse;
+    text-decoration: none;
+}
+#forgatelogin #resend{
+    position: relative;
+    bottom: 2rem;
+    left: 4.5rem;
+    color: blueviolet;
+    text-decoration: none;
+}
