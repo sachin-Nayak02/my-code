@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(clg2.avif);
+    background-size:cover;
+}
+
+.login{
+   
+    height: 740px;
+    width: 355px;
+}
+
+.login form{
+   border: 2px solid black;
+   margin: 190px 48px;
+   height: 346px;
+   width: 264px;
+   background-color: rgba(0, 0, 0, 0.559);
+   border-radius: 10px;
+   box-shadow:  5px 5px 28px  #a9d6e5;
+
+}
+.fa-eye{
+    color: white;
+    position: relative;
+    right: 36px;
+    top: 2px;
+}
+
+input{
+    display: block;
+}
+h1,h2,p{
+    color: #f0f3bd;
+    font-family: "Dancing Script", "Anta"sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+input[type="number"]{
+    width: 200px;
+    margin: 40px 10px 9px 20px;
+    height: 29px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.256);
+    color: white;
+    border-radius: 2px solid black;
+}
+input[type="password"],input[type="text"]{
+    width: 200px;
+    margin: 13px 3px 2px 20px;
+    height: 29px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.256);
+    color: white;
+    display: inline;
+}
+input:hover,button:hover{
+    transform: scale(1.1);
+    border-radius: 3px solid blue;
+
+
+}
+button{
+    height: 30px;
+    width: 156px;
+    border-radius: 5px;
+    margin: 25px 13px 33px 48px;
+    background-color: #1a73e8;
+}
